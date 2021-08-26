@@ -3,8 +3,8 @@ job('Demo-Maven-Project-Via-DSL') {
     scm {
         git("https://github.com/giitCodes/mvn-sample.git", 'main')
     }
-    triggers {
-        scm('* * * * *')
+//     triggers {
+//         scm('* * * * *')
     }
     steps {
         maven('clean package', 'pom.xml')
