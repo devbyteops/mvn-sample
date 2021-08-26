@@ -3,7 +3,7 @@ pipeline {
       stages {
             stage('Init') {
                   steps {
-                        echo 'Hi, this is Anshul from LevelUp360'
+                        echo 'Hi, this is sample DSL pipeline code'
                         echo 'We are Starting the Testing'
                   }
             }
